@@ -1,9 +1,9 @@
 CCR_SW for SAS<sup>&reg;</sup>
 ===
 
-This SAS macro for covariate-constrained randomization of stepped-wedge designs is released under the GNU Lesser General Public License.  
+This SAS macro for covariate-constrained randomization of stepped-wedge designs is released under the GNU Lesser General Public License.  It hasn't been peer-reviewed yet, but it's offered for use as-is with no implied warranty (not even for merchantability or fitness for a particular purpose).
 
-It hasn't been peer-reviewed yet, but it's offered for use as-is with no implied warranty.  It's very similar to **CCR** but with steps in place of arms.  The randomization aims to balance the covariates across both arms, weighted by the number of periods each cluster spends in each arm, within strata and overall.
+The macro is very similar to [CCR](https://github.com/ejgreene/ccr-sas) but assigns to steps rather than arms.  The randomization aims to balance the covariates across both arms, weighted by the number of periods each cluster spends in each arm, within strata and overall.
 
 This usage information is lifted from the macro comments; a more user-friendly article is in the works.
 
