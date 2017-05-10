@@ -75,6 +75,6 @@ This usage information is lifted from the macro comments; a more user-friendly a
      is larger than the number of overall allocations
 
    Probability of two clusters being in same step: 1/s
-   Probability of two clusters being x steps apart: 2*(s-x)/x^2
+   Probability of two clusters being x steps apart: 2*(s-x)/s^2
 */
 ```
